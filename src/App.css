@@ -54,7 +54,16 @@ h1 {
   width: 300px;
   color: #212529;
 }
-
+.edit-todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #212529;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #212529;
+}
 .todo-input::placeholder {
   color: black;
 }
@@ -67,7 +76,13 @@ h1 {
   cursor: pointer;
   
 }
-
+.edit-todo-btn {
+  background: #212529;
+  color: white;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+}
 .Todo {
   display: flex;
   justify-content: space-between;
